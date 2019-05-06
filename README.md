@@ -2,8 +2,14 @@
 
 调研下掘金小册
 
-```python
-> python3 main.py
+### 使用
+
+```bash
+curl https://raw.githubusercontent.com/axetroy/juejin.book/master/main.py | python3 -
+# or
+wget -q -O - https://raw.githubusercontent.com/axetroy/juejin.book/master/main.py | python3 -
+# or
+python3 main.py
 
 正在检索掘金小册...
 总共发现有 43 本小册
@@ -15,7 +21,7 @@
 《Netty 入门与实战：仿写微信 IM 即时通讯系统》         销量: 5999 本
 《前端性能优化原理与实践》                        销量: 5772 本
 《如何写一本掘金小册》                          销量: 5551 本
-《你不知道的 Chrome 调试技巧》                  销量: 5090 本
+《你不知道的 Chrome 调试技巧》                  销量: 5090 本clear
 《Git 原理详解及实用指南》                      销量: 4968 本
 《使用 webpack 定制前端开发环境》                销量: 4382 本
 ----------最赚钱 TOP 10----------
